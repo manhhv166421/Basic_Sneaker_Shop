@@ -1,220 +1,396 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>side</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Footer-Big-Logo.css">
-    <link rel="stylesheet" href="assets/css/Cool-Navbar.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Swipe-Slider-7.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-light navbar-expand-md fixed-top text-capitalize bg-inverse scrolling-navbar" id="main-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img id="brand-image" src="img/brand3.png">
-            </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a></li>
-                </ul>
+    <div id="wrapper">
+        <div id="header">
+            <div class="topBar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row d-flex justify-content-between">
+                                <div class="nameShop">
+                                    <a href="">Hệ thống cửa hàng BasicShop</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <nav class="menu-top">
+                                <ul class="topBar-menu d-flex">
+                                    <li><a href="">Kiểm tra tích điểm</a></li>
+                                    <li><a href="">Kiểm tra đơn hàng</a></li>
+                                    <li><a href="">Tin tức</a></li>
+                                    <li><a href="">Liên hệ</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomBar">
+                <div class="bottom-head">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 text-left">
+                                <div class="logoShop">
+                                    <a href="">
+                                        <img src="assets/img/brand3.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <nav class="col-md-6">
+                                <ul id="main-menu" class="d-flex">
+                                    <li><a href="">Giày Nike</a></li>
+                                    <li><a href="">Giày Adidas</a></li>
+                                    <li><a href="">Giày Vans</a></li>
+                                    <li class="list-items" >
+                                        <a href="" class="a-hover">Giày thời trang</a>
+                                        <div class="sub-menu">
+                                            <ul class="more-menu">
+                                                <li><a href="" class="more-menu-link">Giày puma</a></li>
+                                                <li><a href="" class="more-menu-link">Giày converse</a></li>   
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <nav class="col-md-3">
+                                <ul class="cart d-flex">
+                                    <li><a href="">
+                                            <i class="fas fa-search"></i>
+                                        </a></li>
+                                    <li><a href="">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div id="wp-content">
+            <div class="container development-policy">
+                <div class="row">
+                    <div class="banner col-md-12">
+                        <img src="assets/img/2997.jpg" alt="">
+                        <div class="policy">
+                            <div class="row">
+                                <div class="col-md-3 text-center policy__item">
+                                    <img src="assets/img/iconfinder_truck_1291768-1.png" alt="">
+                                    <h6>Giao hàng toàn quốc</h6>
+                                    <p>Vận Chuyển khắp Việt Nam</p>
+                                </div>
+                                <div class="col-md-3 text-center policy__item">
+                                    <img src="assets/img/iconfinder_payment_1954199-3.png" alt="">
+                                    <h6>Thanh toán khi nhận hàng</h6>
+                                    <p>Nhận hàng tại nhà rồi thanh toán</p>
+                                </div>
+                                <div class="col-md-3 text-center policy__item">
+                                    <img src="assets/img/iconfinder_service_repair_phone_mobile_wrench_screw_driver_4014703-1.png"
+                                        alt="">
+                                    <h6>Bảo hành dài hạn</h6>
+                                    <p>Bảo hành lên đến 60 ngày</p>
+                                </div>
+                                <div class="col-md-3 text-center policy__item">
+                                    <img src="assets/img/iconfinder_refresh_3017918-1.png" alt="">
+                                    <h6>Đổi trả dễ dàng</h6>
+                                    <p>Đổi hàng thoải mái trong 30 ngày </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container top-newsProduct">
+                <h1 class="text-center">Top sản phẩm mới nhất</h1>
+                <div class="list-products">
+                    <ul class="product-items d-flex justify-content-between">
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image005.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image006.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image009.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image010.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image011.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image012.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image013.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image014.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image015.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image016.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image017.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image018.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image019.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image020.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container top-sellProduct">
+                <h1 class="text-center">Top sản phẩm bán chạy nhất</h1>
+                <div class="list-products">
+                    <ul class="product-items d-flex justify-content-between">
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>     
+                        <li class="col-md-3">
+                            <div class="product-header">
+                                <a href="">
+                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
+                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
+                                </a>
+                            </div>
+                            <h3 class="product-title">
+                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
+                            </h3>
+                            <span class="price">
+                                4.200.000đ
+                            </span>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <div id="fw_al_001" class="carousel slide ps_slide_y ps_indicators_y swipe_y ps_easeOutQuint" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2500">
-
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#fw_al_001" data-slide-to="0" class="active"></li>
-            <li data-target="#fw_al_001" data-slide-to="1"></li>
-            <li data-target="#fw_al_001" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper For Slides -->
-        <div class="carousel-inner" role="listbox">
-
-            <!-- First Slide -->
-            <div class="carousel-item active">
-
-                <!-- Slide Background -->
-                <img src="img/Banners_NIKE_MEN_SHOES.png" alt="fw_al_001_01">
-
-                <!-- Slide Text Layer -->
-                <div class="fw_al_001_slide">
-                    <h3 data-animation="animated fadeInUp">NIKE</h3>
-                    <h1 data-animation="animated fadeInUp"></h1>
-                    <p data-animation="animated fadeInUp"></p>
-                    <a href="#" data-animation="animated fadeInUp">Tới shop >></a>
+        <div id="footer">
+            <div class="container d-flex justify-content-between">
+                <div class="about">
+                    <h3>Giới thiệu</h3>
+                    <ul>
+                        <li> <a href="">Trang chủ</a> </li>
+                        <li> <a href="">Giới thiệu</a></li>
+                        <li> <a href="">Sản phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="policy-footer">
+                    <h3>Chính sách</h3>
+                    <ul>
+                        <li> <a href="">Chính sách bảo mật</a> </li>
+                        <li> <a href="">Chính sách vận chuyển</a> </li>
+                        <li> <a href="">Chính sách đổi trả, bảo hành</a> </li>
+                        <li> <a href="">Quy định sử dụng</a> </li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="">Kiểm tra đơn hàng</a></li>
+                        <li><a href="">Đăng nhập</a></li>
+                        <li><a href="">Đăng ký</a></li>
+                        <li><a href="">Giỏ hàng</a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- End of Slide -->
-
-            <!-- Second Slide -->
-            <div class="carousel-item">
-
-                <!-- Slide Background -->
-                <img src="img/adidas-originals-shoes1500x500.jpg" alt="fw_al_001_02">
-
-                <!-- Slide Text Layer -->
-                <div class="fw_al_001_slide">
-                    <h3 data-animation="animated fadeInUp">ADIDAS</h3>
-                    <h1 data-animation="animated fadeInUp"></h1>
-                    <p data-animation="animated fadeInUp"></p>
-                    <a href="#" data-animation="animated fadeInUp">Tới shop >></a>
-                </div>
-            </div>
-            <!-- End of Slide -->
-
-            <!-- Third Slide -->
-            <div class="carousel-item">
-
-                <!-- Slide Background -->
-                <img src="img/banner_puma.jpg" alt="fw_al_001_03">
-
-                <!-- Slide Text Layer -->
-                <div class="fw_al_001_slide">
-                    <h3 data-animation="animated fadeInUp">PUMA</h3>
-                    <h1 data-animation="animated fadeInUp"></h1>
-                    <p data-animation="animated fadeInUp"></p>
-                    <a href="#" data-animation="animated fadeInUp">Tới Shop >></a>
-                </div>
-            </div>
-            <!-- End of Slide -->
-
-        </div><!-- End of Wrapper For Slides -->
-
-    </div> <!-- End Paradise Slider -->
-    <div id="title">
-    	<h2>Sản phẩm bán chạy</h2>
+        </div>
     </div>
-    <section id="sale">
-		<div class="container">
-			<div class="card">
-				<div class="imgBx">
-					<img src="img/custom-nike-air-force-1-high.png">
-					<h2>Nike Air Force 1 High Custom</h2>
-				</div>
-				<div class="content">
-					<div class="size">
-						<h3>Size :</h3>
-							<span>8</span>
-							<span>9</span>
-							<span>10</span>
-							<span>11</span>
-					</div>
-					<div class="color">
-						<h3>Color :</h3>
-							<span></span>
-							<span></span>
-							<span></span>
-					</div>
-					<a href="#">Đặt mua</a>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="card">
-				<div class="imgBx">
-					<img src="img/dior_x_nike_air_jordan_1.png">
-					<h2>Nike Air Jordan 1 Dior</h2>
-				</div>
-				<div class="content">
-					<div class="size">
-						<h3>Size :</h3>
-							<span>8</span>
-							<span>9</span>
-							<span>10</span>
-							<span>11</span>
-					</div>
-					<a href="#">Đặt mua</a>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="card">
-				<div class="imgBx">
-					<img src="img/jordan_5_retro_offwhite.png">
-					<h2>Nike Air Jordan 5 Retro Off-White</h2>
-				</div>
-				<div class="content">
-					<div class="size">
-						<h3>Size :</h3>
-							<span>8</span>
-							<span>9</span>
-							<span>10</span>
-							<span>11</span>
-					</div>
-					<a href="#">Đặt mua</a>
-				</div>
-			</div>
-		</div>
-	</section>
-</body>    
-
-    <footer id="myFooter">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-12 col-sm-6 col-md-3">
-                    <a href="index.html"><img src="img/brand4.png" alt=""></a>
-                </div>
-                <div class="col-12 col-sm-6 col-md-2">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Downloads<br></a></li>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Other Links</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-sm-6 col-md-2">
-                    <h5>Our Company</h5>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Company Information<br></a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-2">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help Desk<br></a></li>
-                        <li><a href="#">Forums</a></li>
-                        <li><a href="#">External Links</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 social-networks">
-                    <div></div><a class="facebook" href="#"><i class="fa fa-facebook"></i></a><a class="twitter" href="#"><i class="fa fa-twitter"></i></a><a class="google" href="#"><i class="fa fa-google-plus"></i></a><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                    <button
-                        class="btn btn-primary" style="margin-top:20px;" type="button">Contact us</button>
-                </div>
-            </div>
-            <div class="row footer-copyright">
-                <div class="col">
-                    <p>© 2016 Copyright Text ~ Designed By&nbsp;<a href="#">MySelf</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Cool-Navbar.js"></script>
-
+</body>
 
 </html>

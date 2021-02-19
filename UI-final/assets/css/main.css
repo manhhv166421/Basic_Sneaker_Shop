@@ -1,0 +1,266 @@
+/* ========= HEADER ======== */
+
+/* --------TOP HEADER */
+.topBar{
+    background: #f1f2f4;
+
+}
+
+.nameShop a{
+    display: block;
+    font-size: 1.6rem;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 0 15px 70px;
+}
+.menu-top{
+    padding-left: 179px;
+}
+ul.topBar-menu{
+    list-style: none;
+    padding-top: 10px;
+    padding-left:300px ;
+    margin: 0;
+}
+ul.topBar-menu li{
+    padding: 10px 40px 15px 0;
+}
+ul.topBar-menu li a{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* --------- BOTTOM HEADER--------- */
+.bottomBar{
+    margin-bottom: 67px;
+}
+
+.logoShop a{
+    display: block;
+    padding-left: 40px;
+}
+
+
+ul#main-menu{
+    list-style: none;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-left: 100px;
+
+}
+
+ul#main-menu li a{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    color: #111;
+    padding-left: 50px;
+    text-decoration: none;
+    font-weight: 500; 
+}
+
+ul#main-menu li:hover .sub-menu{
+    display: block;
+    transition: all .5s;
+} 
+
+.sub-menu::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 157px;
+    height: 28px;
+    right: 22px;
+    top: -22px;
+}
+.sub-menu{
+    margin-top: 15px;
+    right: 204px;
+    display: none;
+    position: absolute;
+    background: #efefef;
+    width: 221px;
+    z-index: 10;
+    transition: all .5s;
+}
+ul.more-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+ul.more-menu li{
+    padding-bottom: 20px;
+}
+
+.sub-menu ul.more-menu li a{
+    padding-right: 50px;
+    
+    display: block;
+    text-align: center;
+}
+
+ul.cart{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
+ul.cart li a{
+    display: block;
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 0;
+    padding-left: 25px;;
+}
+
+/* =========== WP-CONTENT ============ */
+
+#wrapper{
+    background-color: #fff;
+    
+}
+
+#wp-content{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+/* ----------  development-policy ---------*/
+.development-policy{
+    margin-bottom: 50px;
+}
+.banner img{
+    width: 1110px;
+    height: auto;
+}
+.policy img{
+    width: 45px ;
+    height: auto;
+}
+
+.policy__item{
+    padding-top: 30px;
+}
+.policy__item h6{
+    font-size: 1.35rem;
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.policy__item p{
+    font-size: 1.3rem;
+    color: #adadad;
+}
+
+/* ------ Top-Newsproduct */
+.top-newsProduct h1{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+ul.product-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+ul.product-items li{
+    margin-bottom: 50px;
+}
+
+ul.product-items li .product-header {
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+ul.product-items li .product-header a{
+    display: block;
+}
+
+ul.product-items li .product-header .img-pois{
+    transition: all .7s;
+    width: 270px;
+    height: auto;
+
+}
+
+ul.product-items li .product-header:hover .img-abs{
+    display: block;
+    top: 0;
+}
+
+ul.product-items li .product-header .img-abs{
+    position: absolute;
+    display: none;
+    /* opacity: 0; */
+}
+
+
+ul.product-items li .product-header a img{
+    width: 270px;
+    height: auto;
+}
+
+ul.product-items li .product-title a{
+    display: block;
+    color: #111;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+ul.product-items li .price{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.top-sellProduct h1{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+ 
+/* ========= FOOTER ========== */
+#footer{
+    margin-bottom: 10px;
+}
+#footer h3{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer ul li{
+    padding-bottom: 5px;
+}
+#footer ul li a{
+    display: block;
+    font-size: 1.4rem;
+    color: #111;
+    text-decoration: none;
+}
+
+#footer ul li a:hover {
+    color: #ccc;
+}
+
+
+
+
+
+
