@@ -1,0 +1,151 @@
+#order {
+  padding: 0 40px;
+}
+
+#order .tool-bar {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+#order .tool-bar a {
+  text-decoration: none;
+  color: #443f3f;
+}
+
+#order .tool-bar i {
+  font-size: 1.2rem;
+  color: #968f8f;
+  margin: 0 5px;
+}
+
+#main-ordered {
+  display: flex;
+}
+
+#main-ordered .product {
+  width: 60%;
+  height: 500px;
+  display: flex;
+}
+
+#main-ordered .product .sub-thumbnail-product {
+  padding-right: 20px;
+}
+
+#main-ordered .product .sub-thumnail {
+  background: #ccc;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+#main-ordered .product .main-thumbnal-product {
+  background: #ccc;
+  width: 994px;
+  height: 600px;
+}
+
+#main-ordered .product-order {
+  padding: 0 50px;
+}
+.variations_form-cart h1.title-product {
+  font-size: 3.2rem;
+  color: #1e1e23;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.variations_form-cart p {
+  font-size: 1.3rem;
+  color: #8a8888;
+}
+
+.variations_form-cart .price {
+  margin: 20px 0;
+  font-size: 2.6rem;
+  display: block;
+  color: #1e1e23;
+}
+
+.variations_form-cart .price del {
+  font-size: 1.6rem;
+}
+
+.variations_form-cart .price ins {
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.variations_form-cart .color-product {
+  margin-bottom: 20px;
+}
+
+.variations_form-cart .color-product h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.variations_form-cart .box-color {
+  display: flex;
+  flex-wrap: wrap;
+}
+.variations_form-cart .color-product .color {
+  width: 70px;
+  height: 70px;
+  background-color: #333;
+  margin-right: 10px;
+}
+
+.variations_form-cart .size-product {
+    margin-bottom: 20px;
+}
+
+.variations_form-cart .size-product h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.variations_form-cart .size-product .box-size{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.variations_form-cart .size-product .box-size .size{
+    margin: 0 5px 10px 0;
+    width: 120px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 1px solid #e0dcdc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.variations_form-cart .size-product .box-size .size:hover{
+    background-color: #333;
+    color: #fff;
+    transition: all .5s;
+}
+
+.variations_form-cart .buy-now {
+
+    width: 100%;
+    background: #333;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.variations_form-cart .buy-now p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.variations_form-cart .buy-now span{
+    color: #fff;
+    font-style: italic;
+}
+

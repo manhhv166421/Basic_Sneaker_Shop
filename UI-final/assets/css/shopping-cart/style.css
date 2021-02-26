@@ -1,3 +1,9 @@
-.quantity{
-    padding-left: 28px;
+.shopping-cart {
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
+
+.check-out,
+.apply-coupon {
+  font-size: 1.6rem;
 }
