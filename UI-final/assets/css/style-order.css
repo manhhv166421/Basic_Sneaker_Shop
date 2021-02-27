@@ -3,7 +3,6 @@
 }
 
 #order .tool-bar {
-  font-size: 1.6rem;
   margin-bottom: 20px;
 }
 
@@ -13,7 +12,7 @@
 }
 
 #order .tool-bar i {
-  font-size: 1.2rem;
+  font-size: 12px;
   color: #968f8f;
   margin: 0 5px;
 }
@@ -49,26 +48,26 @@
   padding: 0 50px;
 }
 .variations_form-cart h1.title-product {
-  font-size: 3.2rem;
+  font-size: 32px;
   color: #1e1e23;
   font-weight: 300;
   margin-bottom: 25px;
 }
 
 .variations_form-cart p {
-  font-size: 1.3rem;
+  font-size: 13px;
   color: #8a8888;
 }
 
 .variations_form-cart .price {
   margin: 20px 0;
-  font-size: 2.6rem;
+  font-size: 26px;
   display: block;
   color: #1e1e23;
 }
 
 .variations_form-cart .price del {
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .variations_form-cart .price ins {
@@ -81,8 +80,8 @@
 }
 
 .variations_form-cart .color-product h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 20px;
+  margin-bottom: 2px;
 }
 .variations_form-cart .box-color {
   display: flex;
@@ -100,8 +99,8 @@
 }
 
 .variations_form-cart .size-product h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 20px;
+  margin-bottom: 2px;
 }
 
 .variations_form-cart .size-product .box-size{
@@ -114,7 +113,6 @@
     width: 120px;
     padding: 15px 0;
     text-align: center;
-    font-size: 1.6rem;
     font-weight: 700;
     border: 1px solid #e0dcdc;
     border-radius: 5px;
@@ -138,7 +136,7 @@
 }
 
 .variations_form-cart .buy-now p{
-    font-size: 2rem;
+    font-size: 20px;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 0;

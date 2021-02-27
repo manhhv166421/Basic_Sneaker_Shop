@@ -3,7 +3,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    font-size: 1.6rem;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -18,7 +17,6 @@
     color: rgb(139,139,139);
     padding: 10px 0;
     font-weight: 400;
-    font-size: 30px;
 }
 
 #wp-content #login .login-social{
@@ -28,7 +26,6 @@
 
 #wp-content #login .login-social i{
     width: 40px;
-    font-size: 2rem;
 }
 
 #wp-content #login .login-social{

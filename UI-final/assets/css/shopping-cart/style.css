@@ -1,9 +1,7 @@
 .shopping-cart {
   margin-top: 30px;
-  font-size: 1.6rem;
 }
 
-.check-out,
-.apply-coupon {
-  font-size: 1.6rem;
+.quantity{
+  padding-left: 40px;
 }

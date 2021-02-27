@@ -6,389 +6,886 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
     <div id="wrapper">
         <div id="header">
-            <div class="topBar">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row d-flex justify-content-between">
-                                <div class="nameShop">
-                                    <a href="index.html">Hệ thống cửa hàng BasicShop</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <nav class="menu-top">
-                                <ul class="topBar-menu d-flex">
-                                    <li><a href="./sub-page/login.html">Đăng nhập</a></li>
-                                    <li><a href="./sub-page/register.html">Đăng ký</a></li>
-                                    <li><a href="">Tin tức</a></li>
-                                    <li><a href="">Liên hệ</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+            <div class="boxTopBar">
+                <div class="topBar d-flex justify-content-between">
+                    <div class="nameShop">
+                        <a href="index.html">Hệ thống cửa hàng basicsneaker</a>
                     </div>
+                    <nav>
+                        <ul class="subMenu d-flex">
+                            <li><a href="./sub-page/login.html">Đăng nhập</a></li>
+                            <li><a href="./sub-page/register.html">Đăng ký</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="bottomBar">
-                <div class="bottom-head">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-3 text-left">
-                                <div class="logoShop">
-                                    <a href="">
-                                        <img src="assets/img/brand3.png" alt="">
+            <div class="boxSiteBar">
+                <div class="siteBar d-flex justify-content-between">
+                    <div id="logo">
+                        <a href="index.html">
+                            <img src="./assets/img/brand3.png" alt="">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul id="mainMenu" class="d-flex">
+                            <li><a href="">Giày Nike</a></li>
+                            <li><a href="">Giày Adidas</a></li>
+                            <li><a href="">GIày Vans</a></li>
+                            <li><a href="">Những loại khác</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <ul class="cart d-flex">
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End header -->
+        <div id="wp-content">
+            <div class="container">
+                <div class="topNewProduct">
+                    <h1>Top những sản phẩm mới</h1>
+                    <ul class="listNewProduct d-flex">
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="./sub-page/ordered.html">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
                                     </a>
                                 </div>
-                            </div>
-                            <nav class="col-md-6">
-                                <ul id="main-menu" class="d-flex">
-                                    <li><a href="">Giày Nike</a></li>
-                                    <li><a href="">Giày Adidas</a></li>
-                                    <li><a href="">Giày Vans</a></li>
-                                    <li class="list-items">
-                                        <a href="" class="a-hover">Giày thời trang</a>
-                                        <div class="sub-menu">
-                                            <ul class="more-menu">
-                                                <li><a href="" class="more-menu-link">Giày puma</a></li>
-                                                <li><a href="" class="more-menu-link">Giày converse</a></li>
-                                            </ul>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
                                         </div>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <nav class="col-md-3">
-                                <ul class="cart d-flex">
-                                    <li><a href="">
-                                            <i class="fas fa-search"></i>
-                                        </a></li>
-                                    <li><a href="./sub-page/shopping-cart.html">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a></li>
-                                </ul>
-                            </nav>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="topSellProduct">
+                    <h1>Top những sản phẩm bán chạy nhất</h1>
+                    <ul class="listNewProduct d-flex">
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="boxProduct">
+                                <div class="productHeader">
+                                    <a href="">
+                                        <img src="./assets/img/adidas/image003.jpg" alt="" class="mainImg">
+                                        <img src="./assets/img/adidas/image004.jpg" alt="" class="subImg">
+                                    </a>
+                                </div>
+                                <div class="productBody">
+                                    <h3>
+                                        <a href="">
+                                            Giày thể thao NMD_R1 PRIMEKNIT
+                                        </a>
+                                    </h3>
+                                    <div class="colorProduct">
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                        <div class="moreColor">
+
+                                        </div>
+                                    </div>
+                                    <span class="price">
+                                        500.000đ
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="policy">
+                    <h1>Chính sách chăm sóc khách hàng</h1>
+                    <div class="boxPolicyItem d-flex justify-content-between">
+                        <div class="policyItem">
+                            <img src="assets/img/iconfinder_truck_1291768-1.png" alt="">
+                            <h3>Giao hàng toàn quốc</h3>
+                            <p>Vận Chuyển khắp Việt Nam</p>
+                        </div>
+                        <div class="policyItem">
+                            <img src="assets/img/iconfinder_payment_1954199-3.png" alt="">
+                            <h3>Thanh toán khi nhận hàng</h3>
+                            <p>Nhận hàng tại nhà rồi thanh toán</p>
+                        </div>
+                        <div class="policyItem">
+                            <img src="assets/img/iconfinder_service_repair_phone_mobile_wrench_screw_driver_4014703-1.png"
+                                alt="">
+                            <h3>Bảo hành dài hạn</h3>
+                            <p>Bảo hành lên đến 60 ngày</p>
+                        </div>
+                        <div class="policyItem">
+                            <img src="assets/img/iconfinder_refresh_3017918-1.png" alt="">
+                            <h3>Đổi trả dễ dàng</h3>
+                            <p>Đổi hàng thoải mái trong 30 ngày </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div id="wp-content">
-            <div class="container development-policy">
-                <div class="row">
-                    <div class="banner col-md-12">
-                        <img src="assets/img/2997.jpg" alt="">
-                        <div class="policy">
-                            <div class="row">
-                                <div class="col-md-3 text-center policy__item">
-                                    <img src="assets/img/iconfinder_truck_1291768-1.png" alt="">
-                                    <h6>Giao hàng toàn quốc</h6>
-                                    <p>Vận Chuyển khắp Việt Nam</p>
-                                </div>
-                                <div class="col-md-3 text-center policy__item">
-                                    <img src="assets/img/iconfinder_payment_1954199-3.png" alt="">
-                                    <h6>Thanh toán khi nhận hàng</h6>
-                                    <p>Nhận hàng tại nhà rồi thanh toán</p>
-                                </div>
-                                <div class="col-md-3 text-center policy__item">
-                                    <img src="assets/img/iconfinder_service_repair_phone_mobile_wrench_screw_driver_4014703-1.png"
-                                        alt="">
-                                    <h6>Bảo hành dài hạn</h6>
-                                    <p>Bảo hành lên đến 60 ngày</p>
-                                </div>
-                                <div class="col-md-3 text-center policy__item">
-                                    <img src="assets/img/iconfinder_refresh_3017918-1.png" alt="">
-                                    <h6>Đổi trả dễ dàng</h6>
-                                    <p>Đổi hàng thoải mái trong 30 ngày </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container top-newsProduct">
-                <h1 class="text-center">Top sản phẩm mới nhất</h1>
-                <div class="list-products">
-                    <ul class="product-items d-flex justify-content-between">
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image005.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image006.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image009.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image010.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image011.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image012.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image013.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image014.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image015.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image016.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image017.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image018.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image019.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image020.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container top-sellProduct">
-                <h1 class="text-center">Top sản phẩm bán chạy nhất</h1>
-                <div class="list-products">
-                    <ul class="product-items d-flex justify-content-between">
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                        <li class="col-md-3">
-                            <div class="product-header">
-                                <a href="">
-                                    <img src="assets/img/adidas/image003.jpg" alt="" class="img-posi">
-                                    <img src="assets/img/adidas/image004.jpg" alt="" class="img-abs">
-                                </a>
-                            </div>
-                            <h3 class="product-title">
-                                <a href=""> Giày thể thao NMD_R1 PRIMEKNIT</a>
-                            </h3>
-                            <span class="price">
-                                4.200.000đ
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+        <!-- End wp-content -->
         <div id="footer">
-            <div class="container d-flex justify-content-between">
-                <div class="about">
-                    <h3>Giới thiệu</h3>
-                    <ul>
-                        <li> <a href="">Trang chủ</a> </li>
-                        <li> <a href="">Giới thiệu</a></li>
-                        <li> <a href="">Sản phẩm</a></li>
-                    </ul>
-                </div>
-                <div class="policy-footer">
-                    <h3>Chính sách</h3>
-                    <ul>
-                        <li> <a href="">Chính sách bảo mật</a> </li>
-                        <li> <a href="">Chính sách vận chuyển</a> </li>
-                        <li> <a href="">Chính sách đổi trả, bảo hành</a> </li>
-                        <li> <a href="">Quy định sử dụng</a> </li>
-                    </ul>
-                </div>
-                <div class="support">
-                    <h3>Hỗ trợ khách hàng</h3>
-                    <ul>
-                        <li><a href="">Kiểm tra đơn hàng</a></li>
-                        <li><a href="">Đăng nhập</a></li>
-                        <li><a href="">Đăng ký</a></li>
-                        <li><a href="">Giỏ hàng</a></li>
-                    </ul>
+            <div class="container">
+                <div class="boxFooter d-flex justify-content-between">
+                    <div class="about">
+                        <h3>Giới thiệu</h3>
+                        <ul>
+                            <li> <a href="">Trang chủ</a> </li>
+                            <li> <a href="">Giới thiệu</a></li>
+                            <li> <a href="">Sản phẩm</a></li>
+                        </ul>
+                    </div>
+                    <div class="policy-footer">
+                        <h3>Chính sách</h3>
+                        <ul>
+                            <li> <a href="">Chính sách bảo mật</a> </li>
+                            <li> <a href="">Chính sách vận chuyển</a> </li>
+                            <li> <a href="">Chính sách đổi trả, bảo hành</a> </li>
+                            <li> <a href="">Quy định sử dụng</a> </li>
+                        </ul>
+                    </div>
+                    <div class="support">
+                        <h3>Hỗ trợ khách hàng</h3>
+                        <ul>
+                            <li><a href="">Kiểm tra đơn hàng</a></li>
+                            <li><a href="">Đăng nhập</a></li>
+                            <li><a href="">Đăng ký</a></li>
+                            <li><a href="">Giỏ hàng</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- End footer -->
     </div>
 </body>
 

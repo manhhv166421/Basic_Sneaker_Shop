@@ -1,19 +1,7 @@
-*{
-    box-sizing: inherit;
-   
-}
-
-html {
-    /* font-size: 10px */
-    font-size: 62.5%;
-    line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-
-.d-flex{
-    display: flex;
-}
-.justify-content-between{
+.justify-content-between {
     justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
 }
