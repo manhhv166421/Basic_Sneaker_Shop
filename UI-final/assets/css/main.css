@@ -151,11 +151,15 @@ ul.listNewProduct {
   justify-content: space-evenly;
 }
 
-.productBody .colorProduct .moreColor {
+.productBody .colorProduct .moreColor,.imgMoreColor {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   background: #ccc;
+}
+.productBody .colorProduct .moreColor{
+  width: 50px;
+  height: 50px;
 }
 
 .productBody .price {
