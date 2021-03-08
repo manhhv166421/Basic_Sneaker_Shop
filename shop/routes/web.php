@@ -21,3 +21,18 @@ Route::get('index',[
 	'as' => 'trang-chu',
 	'uses' => '\App\Http\Controllers\PageController@getIndex'
 ]);
+
+Route::get('register',[
+	'as' => 'register',
+	'uses' => '\App\Http\Controllers\PageController@getRegister'
+]);
+
+Route::get('login',[
+	'as' => 'login',
+	'uses' => '\App\Http\Controllers\PageController@getLogin'
+]);
+
+Route::get('shopping',[
+	'as' => 'shopping',
+	'uses' => '\App\Http\Controllers\PageController@getShopping'
+]);

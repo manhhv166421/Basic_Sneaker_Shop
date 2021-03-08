@@ -1,5 +1,6 @@
 @extends('master')
 @section('content')
+@include('menu')
 <div id="wp-content">
             <div class="container">
                 <div class="topNewProduct">
@@ -19,7 +20,7 @@
                                             Giày thể thao SUPERSTAR
                                         </a>
                                     </h3>
-                                    <div class="colorProduct">
+                                    <!--<div class="colorProduct">
                                         <div class="moreColor">
                                             <img src="source/assets/img/adidas/adidas1.1.jpg" alt="" class="imgMoreColor">   
                                         </div>
@@ -29,7 +30,7 @@
                                         <div class="moreColor">
                                             <img src="source/assets/img/adidas/adidas1.1.jpg" alt="" class="imgMoreColor"> 
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <span class="price">
                                         1.700.000đ
                                     </span>

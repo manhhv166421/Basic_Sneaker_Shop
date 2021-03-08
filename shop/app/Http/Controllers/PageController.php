@@ -10,4 +10,19 @@ class PageController extends Controller
     {
     	return view('page.trangchu');
     }
+
+    public function getRegister()
+    {
+    	return view('page.dangky');
+    }
+
+    public function getLogin()
+    {
+    	return view('page.dangnhap');
+    }
+
+    public function getShopping()
+    {
+    	return view('page.shopping');
+    }
 }

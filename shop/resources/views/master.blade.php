@@ -14,11 +14,24 @@
     <link rel="stylesheet" href="source/assets/css/reset.css">
     <link rel="stylesheet" href="source/assets/css/global.css">
     <link rel="stylesheet" href="source/assets/css/main.css">
+    <link rel="stylesheet" href="source/assets/css/style-register.css">
+    <link rel="stylesheet" href="source/assets/css/style-login.css">
+    <link rel="stylesheet" href="source/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="source/assets/fonts/fontawesome-free-5.15.1-web/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/Elegant-Registration-Form.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/Login-Box-En.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/MUSA_carousel-product-cart-slider-1.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/MUSA_carousel-product-cart-slider.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/style.css">
 </head>
 
 <body>
     <div id="wrapper">
-        @include('header')
+        @include('header')        
+    </div>
+    <div id="wrapper">
         <!-- End header -->
         @yield('content')
     </div>
