@@ -23,7 +23,7 @@ ul {
 
 /* ===== HEADER ===== */
 #header {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 /* ----- topBar ----- */
@@ -61,12 +61,15 @@ ul {
   padding: 0 40px;
   line-height: 70px;
 }
+
 ul#mainMenu {
   margin-right: 100px;
 }
+
 ul#mainMenu li {
   margin: 0 20px;
 }
+
 ul#mainMenu li a {
   display: block;
   color: #333;
@@ -75,11 +78,84 @@ ul#mainMenu li a {
   text-decoration: none;
 }
 
-ul.cart li a {
-  display: block;
-  margin: 0 5px;
-  color: #333;
+.cart {
+  line-height: 1.5;
+  padding-top: 20px;
+}
+form#search {
+  padding-right: 10px;
+  display: inline-block;
+}
+
+form#search input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search {
+  position: relative;
+}
+
+form#search button {
+  position: absolute;
+  background: #fff;
+  border: none;
+  right: 10px;
+  top: 5px;
+}
+.box-cart{
+  display: flex;
+}
+.cart .cart-link,
+.user-link {
+  display: inline-block;
+  padding-left: 5px;
+  text-decoration: none;
   font-size: 20px;
+  color: #333;
+  position: relative;
+  top: 3px;
+}
+
+.cart .user-link {
+  color: #333;
+}
+
+ul.menu-cart li:hover ul.subMenu-cart{
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+ul.subMenu-cart::before{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  top: -12px;
+  right: 0;
+}
+ul.subMenu-cart {
+  display: block;
+  opacity: 0;
+  max-width: 175px;
+  position: absolute;
+  right: 37px;
+  top: 120px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 79px 2px rgb(170 170 170 / 32%);
+}
+
+ul.subMenu-cart li {
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+ul.subMenu-cart li a{
+  text-decoration: none;
+  
+  color: #111;
 }
 
 /* ======= WP-CONTENT ===== */
@@ -87,6 +163,15 @@ ul.cart li a {
   padding-bottom: 50px;
   margin-bottom: 50px;
   border-bottom: 1px solid #ccc;
+}
+
+/* .banner{
+  margin-bottom: 50px;
+} */
+
+.banner img {
+  width: 100%;
+  /* height: auto; */
 }
 /* ----- topNewProduct ------ */
 .topNewProduct {
@@ -116,7 +201,7 @@ ul.listNewProduct {
 
 .productHeader img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 .productHeader .subImg {
@@ -151,19 +236,17 @@ ul.listNewProduct {
   justify-content: space-evenly;
 }
 
-.productBody .colorProduct .moreColor,.imgMoreColor {
+.productBody .colorProduct .moreColor,
+.imgMoreColor {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   background: #ccc;
 }
-.productBody .colorProduct .moreColor{
-  width: 50px;
-  height: 50px;
-}
 
 .productBody .price {
-  font-weight: 600;
+  font-weight: 400;
+  color: #696868;
   font-size: 20px;
 }
 
@@ -176,6 +259,7 @@ ul.listNewProduct {
 /* ----- Policy -------- */
 
 .policy {
+  margin-bottom: 50px;
   padding: 0px 20px;
   box-shadow: 0 0 79px 2px rgb(170 170 170 / 32%);
 }
@@ -209,20 +293,18 @@ ul.listNewProduct {
 
 /* ===== FOOTER ===== */
 
-.boxFooter{
-    padding-bottom: 50px;
+.boxFooter {
+  padding-bottom: 50px;
 }
-.boxFooter h3{
-
+.boxFooter h3 {
 }
-.boxFooter li a{
-    display: block;
-    color: #111;
-    text-decoration: none;
-    padding: 10px 0 10px 0;
-   
+.boxFooter li a {
+  display: block;
+  color: #111;
+  text-decoration: none;
+  padding: 10px 0 10px 0;
 }
 
-.boxFooter li:hover a{
-    color: #ccc;
+.boxFooter li:hover a {
+  color: #ccc;
 }

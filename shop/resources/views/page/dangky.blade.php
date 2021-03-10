@@ -25,6 +25,5 @@
                 </div>
             </div>
         </div>
-        <!-- End wp-content -->
 @endsection
         

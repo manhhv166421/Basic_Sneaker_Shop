@@ -11,32 +11,26 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="source/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="source/assets/css/reset.css">
     <link rel="stylesheet" href="source/assets/css/global.css">
-    <link rel="stylesheet" href="source/assets/css/main.css">
-    <link rel="stylesheet" href="source/assets/css/style-register.css">
+    <link rel="stylesheet" href="source/assets/css/index.css">
     <link rel="stylesheet" href="source/assets/css/style-login.css">
-    <link rel="stylesheet" href="source/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="source/assets/css/style-register.css">
     <link rel="stylesheet" href="source/assets/fonts/fontawesome-free-5.15.1-web/css/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="source/assets/css/shopping-cart/-Login-form-Page-BS4-.css">
     <link rel="stylesheet" href="source/assets/css/shopping-cart/Elegant-Registration-Form.css">
     <link rel="stylesheet" href="source/assets/css/shopping-cart/Login-Box-En.css">
-    <link rel="stylesheet" href="source/assets/css/shopping-cart/MUSA_carousel-product-cart-slider-1.css">
-    <link rel="stylesheet" href="source/assets/css/shopping-cart/MUSA_carousel-product-cart-slider.css">
-    <link rel="stylesheet" href="source/assets/css/shopping-cart/Registration-Form-with-Photo.css">
-    <link rel="stylesheet" href="source/assets/css/shopping-cart/style.css">
+    <link rel="stylesheet" href="source/assets/css/shopping-cart/style-shopping.css">
+    <link rel="stylesheet" href="source/assets/css/style-order.css">
 </head>
 
 <body>
-    <div id="wrapper">
-        @include('header')        
-    </div>
-    <div id="wrapper">
-        <!-- End header -->
-        @yield('content')
-    </div>
+    @include('header') 
+    <!-- End header -->        
+    @yield('content')
     <!-- End wp-content -->
-        @include('footer')
+    @include('footer')
     <!-- End footer -->
 </body>
 
