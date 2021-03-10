@@ -36,3 +36,8 @@ Route::get('shopping',[
 	'as' => 'shopping',
 	'uses' => '\App\Http\Controllers\PageController@getShopping'
 ]);
+
+Route::get('info',[
+	'as' => 'info',
+	'uses' => '\App\Http\Controllers\PageController@getInfo'
+]);

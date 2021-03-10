@@ -25,4 +25,9 @@ class PageController extends Controller
     {
     	return view('page.shopping');
     }
+
+     public function getInfo()
+    {
+        return view('page.info');
+    }
 }
