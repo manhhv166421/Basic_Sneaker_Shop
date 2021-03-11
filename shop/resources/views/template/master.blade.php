@@ -27,11 +27,11 @@
 </head>
 
 <body>
-    @include('header')
+    @include('include.header')
     <!-- End header -->
     @yield('content')
     <!-- End wp-content -->
-    @include('footer')
+    @include('include.footer')
     <!-- End footer -->
 </body>
 

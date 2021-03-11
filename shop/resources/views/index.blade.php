@@ -1,4 +1,4 @@
-@extends('master')
+@extends('template.master')
 @section('content')
 @include('menu')
 <div class="container">
@@ -31,7 +31,7 @@
         </div>
     </div>
 </div>
-  <!-- End banner -->  
+  <!-- End banner -->
 <div id="wp-content">
     <div class="container">
         <div class="topNewProduct">
