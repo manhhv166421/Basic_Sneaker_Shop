@@ -42,8 +42,8 @@
                         <div class="boxProduct">
                             <div class="productHeader">
                                 <a href="ordered">
-                                    <img src="source/assets/img/images/{{$new->image_1}}" alt="" class="mainImg">
-                                    <img src="source/assets/img/images/{{$new->image_2}}" alt="" class="subImg">
+                                    <img src="source/assets/img/images/{{$new->image_1}}" alt="" height="270px" class="mainImg">
+                                    <img src="source/assets/img/images/{{$new->image_2}}" alt="" height="270px" class="subImg">
                                 </a>
                             </div>
                             <div class="productBody">
@@ -70,8 +70,8 @@
                     <div class="boxProduct">
                         <div class="productHeader">
                             <a href="ordered">
-                                <img src="source/assets/img/images/{{$top->image_1}}" alt="" class="mainImg">
-                                <img src="source/assets/img/images/{{$top->image_2}}" alt="" class="subImg">
+                                <img src="source/assets/img/images/{{$top->image_1}}" alt="" height="270px" class="mainImg">
+                                <img src="source/assets/img/images/{{$top->image_2}}" alt="" height="270px" class="subImg">
                             </a>
                         </div>
                         <div class="productBody">

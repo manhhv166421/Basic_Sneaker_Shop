@@ -21,6 +21,7 @@ class PageController extends Controller
 
     public function getLogin()
     {
+
     	return view('page.dangnhap');
     }
 
@@ -62,8 +63,9 @@ class PageController extends Controller
         return view('page.others',compact('others_product'));
     }
 
-    public function getOrdered()
+    public function getOrdered($id)
     {
-        return view('page.ordered');
+        $sanpham = Product::where('id',$id)-> first();
+        return view('page.ordered',compact('sanpham'));
     }
 }

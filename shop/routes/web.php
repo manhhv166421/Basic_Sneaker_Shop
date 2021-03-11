@@ -37,7 +37,7 @@ Route::get('shopping',[
 	'uses' => '\App\Http\Controllers\PageController@getShopping'
 ]);
 
-Route::get('info',[
+Route::get('info/{id}',[
 	'as' => 'info',
 	'uses' => '\App\Http\Controllers\PageController@getInfo'
 ]);
@@ -67,7 +67,7 @@ Route::get('others',[
 	'uses' => '\App\Http\Controllers\PageController@getOthers'
 ]);
 
-Route::get('ordered',[
+Route::get('ordered/{id}',[
 	'as' => 'ordered',
 	'uses' => '\App\Http\Controllers\PageController@getOrdered'
 ]);

@@ -7,36 +7,22 @@
             <nav>
                 <a href="./index.html">Trang chủ</a>
                 <i class="fas fa-chevron-right"></i>
-                <a href="">Giày</a>
-                <i class="fas fa-chevron-right"></i>
-                <a href="">Giày khi click</a>
+                <a href="">Giày {{$sanpham->name}}</a>
+
             </nav>
         </div>
         <div id="main-ordered">
             <div class="product">
-                <div class="sub-thumbnail-product">
-                    <div class="sub-thumnail">
+                        <div class="sub-thumbnail-product">
+                            <img src="./assets/img/adidas/adidas1.1.jpg" alt="" height="500px" width="500px">
+                            <img src="./assets/img/adidas/adidas1.1.jpg" alt="" height="500px" width="500px">
+                        </div>
+                        <div class="main-thumbnal-product">
+                            <div class="main-thumbnail">
 
+                            </div>
+                        </div>
                     </div>
-                    <div class="sub-thumnail">
-
-                    </div>
-                    <div class="sub-thumnail">
-
-                    </div>
-                    <div class="sub-thumnail">
-
-                    </div>
-                    <div class="sub-thumnail">
-
-                    </div>
-                </div>
-                <div class="main-thumbnal-product">
-                    <div class="main-thumbnail">
-
-                    </div>
-                </div>
-            </div>
             <div class="product-order">
                 <div class="variations_form-cart">
                     <h1 class="title-product">
