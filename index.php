@@ -1,12 +1,6 @@
-<?php
-session_start();
-include('page/header.blade.php');
-include('page/master.blade.php');
-include('page/menu.blade.php');
 @extends('master')
 @section('content')
 @include('menu')
-?>
 <div class="container">
     <div class="banner">
         <img src="source/assets/img/banner.png" alt="">
@@ -385,6 +379,4 @@ include('page/menu.blade.php');
     </div>
 </div>
 <!-- End product -->
-<?php
-./include()
-?>
+@endsection
