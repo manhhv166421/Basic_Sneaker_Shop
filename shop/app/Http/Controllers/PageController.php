@@ -9,9 +9,8 @@ class PageController extends Controller
 {
     public function getIndex()
     {
-        $new_product = Product::where('new',1)->paginate(8);
-        $top_product = Product::where('price','>',2000000);
-        dd($top_product);
+        $new_product = Product::where('new','=',1)->paginate(12);
+        $top_product = Product::where('price','>=',2000000)->paginate(12);
     	return view('page.trangchu',compact('new_product','top_product'));
     }
 
@@ -37,25 +36,30 @@ class PageController extends Controller
 
     public function getNike()
     {
-        return view('page.nike');
+        $nike_product = Product::where('id_type','=',2)->paginate();
+        return view('page.nike',compact('nike_product'));
     }
 
     public function getAdidas()
     {
-        return view('page.adidas');
+        $adidas_product = Product::where('id_type','=',1)->paginate();
+        return view('page.adidas',compact('adidas_product'));
     }
     public function getVans()
     {
-        return view('page.vans');
+        $vans_product = Product::where('id_type','=',3)->paginate();
+        return view('page.vans',compact('vans_product'));
     }
     public function getConverse()
     {
-        return view('page.converse');
+        $converse_product = Product::where('id_type','=',4)->paginate();
+        return view('page.converse',compact('converse_product'));
     }
 
     public function getOthers()
     {
-        return view('page.others');
+        $others_product = Product::where('id_type','=',5)->paginate();
+        return view('page.others',compact('others_product'));
     }
 
     public function getOrdered()

@@ -60,6 +60,7 @@
                     </li>
                 @endforeach
             </ul>
+            <!--<div class="row">{{$new_product->links()}}</div>-->
         </div>
         <div class="topSellProduct">
             <h1>Top sản phẩm hot</h1>
