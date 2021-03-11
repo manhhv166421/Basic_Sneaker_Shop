@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes 
+| Web Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -17,27 +17,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('index',[
-	'as' => 'trang-chu',
-	'uses' => '\App\Http\Controllers\PageController@getIndex'
-]);
+Route::get('/index', function(){
+    'as' => 'trang-chu',
+    'uses' => '\App\Http\Controllers\PageController@getIndex'
+    return view('index');
+});
 
-Route::get('register',[
-	'as' => 'register',
-	'uses' => '\App\Http\Controllers\PageController@getRegister'
-]);
+Route::get('/index', 'newController@index');
 
-Route::get('login',[
-	'as' => 'login',
-	'uses' => '\App\Http\Controllers\PageController@getLogin'
-]);
+Route::get('/register', function() {
+    'as' => 'register',
+    'uses' => '\App\Http\Controllers\PageController@getRegister'
+    return view('dangky');
+});
 
-Route::get('shopping',[
-	'as' => 'shopping',
-	'uses' => '\App\Http\Controllers\PageController@getShopping'
-]);
+Route::get('/login', function(){
+    'as' => 'login',
+    'uses' => '\App\Http\Controllers\PageController@getLogin'
+    return view('dangnhap');
+});
 
-Route::get('info',[
-	'as' => 'info',
-	'uses' => '\App\Http\Controllers\PageController@getInfo'
-]);
+Route::get('/shopping',function() {
+    'as' => 'shopping',
+    'uses' => '\App\Http\Controllers\PageController@getShopping'
+    return view('shopping');
+});
+
+Route::get('/info',function() {
+    'as' => 'info',
+    'uses' => '\App\Http\Controllers\PageController@getInfo'
+    return view('info');
+});

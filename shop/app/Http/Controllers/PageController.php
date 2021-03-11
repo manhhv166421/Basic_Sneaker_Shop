@@ -8,26 +8,26 @@ class PageController extends Controller
 {
     public function getIndex()
     {
-    	return view('page.trangchu');
+    	return view('index');
     }
 
     public function getRegister()
     {
-    	return view('page.dangky');
+    	return view('dangky');
     }
 
     public function getLogin()
     {
-    	return view('page.dangnhap');
+    	return view('dangnhap');
     }
 
     public function getShopping()
     {
-    	return view('page.shopping');
+    	return view('shopping');
     }
 
      public function getInfo()
     {
-        return view('page.info');
+        return view('info');
     }
 }
