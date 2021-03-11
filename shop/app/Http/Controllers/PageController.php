@@ -9,8 +9,10 @@ class PageController extends Controller
 {
     public function getIndex()
     {
-        $new_product = Product::where('new',1)->get();
-    	return view('page.trangchu',compact('new_product'));
+        $new_product = Product::where('new',1)->paginate(8);
+        $top_product = Product::where('price','>',2000000);
+        dd($top_product);
+    	return view('page.trangchu',compact('new_product','top_product'));
     }
 
     public function getRegister()
@@ -54,5 +56,10 @@ class PageController extends Controller
     public function getOthers()
     {
         return view('page.others');
+    }
+
+    public function getOrdered()
+    {
+        return view('page.ordered');
     }
 }

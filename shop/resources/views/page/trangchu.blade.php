@@ -41,14 +41,14 @@
                     <li>
                         <div class="boxProduct">
                             <div class="productHeader">
-                                <a href="source/sub-page/ordered.html">
+                                <a href="ordered">
                                     <img src="source/assets/img/images/{{$new->image_1}}" alt="" class="mainImg">
                                     <img src="source/assets/img/images/{{$new->image_2}}" alt="" class="subImg">
                                 </a>
                             </div>
                             <div class="productBody">
                                 <h3>
-                                    <a href="">
+                                    <a href="ordered">
                                        {{$new->name}}
                                     </a>
                                 </h3>
@@ -62,174 +62,30 @@
             </ul>
         </div>
         <div class="topSellProduct">
-            <h1>Top sản phẩm bán chạy</h1>
+            <h1>Top sản phẩm hot</h1>
             <ul class="listNewProduct d-flex">
+                @foreach($top_product as $top) 
                 <li>
                     <div class="boxProduct">
                         <div class="productHeader">
-                            <a href="source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas1.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas1.1.jpg" alt="" class="subImg">
+                            <a href="ordered">
+                                <img src="source/assets/img/images/{{$top->image_1}}" alt="" class="mainImg">
+                                <img src="source/assets/img/images/{{$top->image_2}}" alt="" class="subImg">
                             </a>
                         </div>
                         <div class="productBody">
                             <h3>
-                                <a href="">
-                                    Giày thể thao SUPERSTAR
+                                <a href="ordered">
+                                    {{$top->name}}
                                 </a>
                             </h3>
                             <span class="price">
-                                1.700.000đ
+                                {{$top->price}}đ
                             </span>
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas6.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas6.6.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao SUPERSTAR
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                1.700.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas10.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas10.10.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas3.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas3.3.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas3.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas3.3.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas3.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas3.3.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas3.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas3.3.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="boxProduct">
-                        <div class="productHeader">
-                            <a href="source/source/sub-page/ordered.html">
-                                <img src="source/assets/img/adidas/adidas3.jpg" alt="" class="mainImg">
-                                <img src="source/assets/img/adidas/adidas3.3.jpg" alt="" class="subImg">
-                            </a>
-                        </div>
-                        <div class="productBody">
-                            <h3>
-                                <a href="">
-                                    Giày thể thao X9000L3 M
-                                </a>
-                            </h3>
-
-                            <span class="price">
-                                2.200.000đ
-                            </span>
-                        </div>
-                    </div>
-                </li>
+                @endforeach
             </ul>
         </div>
     </div>

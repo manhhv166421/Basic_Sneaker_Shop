@@ -66,3 +66,8 @@ Route::get('others',[
 	'as' => 'others',
 	'uses' => '\App\Http\Controllers\PageController@getOthers'
 ]);
+
+Route::get('ordered',[
+	'as' => 'ordered',
+	'uses' => '\App\Http\Controllers\PageController@getOrdered'
+]);
