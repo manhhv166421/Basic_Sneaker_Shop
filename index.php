@@ -1,4 +1,8 @@
 <?php
+session_start();
+include('page/header.blade.php');
+include('page/master.blade.php');
+include('page/menu.blade.php');
 @extends('master')
 @section('content')
 @include('menu')
@@ -382,5 +386,5 @@
 </div>
 <!-- End product -->
 <?php
-@endsection
+./include()
 ?>
