@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class PageController extends Controller
 {
     public function getIndex()
     {
-    	return view('page.trangchu');
+        $new_product = Product::where('new',1)->get();
+    	return view('page.trangchu',compact('new_product'));
     }
 
     public function getRegister()
@@ -29,5 +31,28 @@ class PageController extends Controller
      public function getInfo()
     {
         return view('page.info');
+    }
+
+    public function getNike()
+    {
+        return view('page.nike');
+    }
+
+    public function getAdidas()
+    {
+        return view('page.adidas');
+    }
+    public function getVans()
+    {
+        return view('page.vans');
+    }
+    public function getConverse()
+    {
+        return view('page.converse');
+    }
+
+    public function getOthers()
+    {
+        return view('page.others');
     }
 }

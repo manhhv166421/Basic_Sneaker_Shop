@@ -9,11 +9,11 @@
                 </div>
                 <nav>
                     <ul id="mainMenu" class="d-flex">
-                        <li><a href="">Giày Nike</a></li>
-                        <li><a href="">Giày Adidas</a></li>
-                        <li><a href="">GIày Vans</a></li>
-                        <li><a href="">Giày Converse</a></li>
-                        <li><a href="">Những loại khác</a></li>
+                        <li><a href="nike">Giày Nike</a></li>
+                        <li><a href="adidas">Giày Adidas</a></li>
+                        <li><a href="vans">Giày Vans</a></li>
+                        <li><a href="converse">Giày Converse</a></li>
+                        <li><a href="others">Những loại khác</a></li>
                     </ul>
                 </nav>
                 <div class="cart">

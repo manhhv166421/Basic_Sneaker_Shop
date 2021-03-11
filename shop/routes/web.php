@@ -41,3 +41,28 @@ Route::get('info',[
 	'as' => 'info',
 	'uses' => '\App\Http\Controllers\PageController@getInfo'
 ]);
+
+Route::get('nike',[
+	'as' => 'nike',
+	'uses' => '\App\Http\Controllers\PageController@getNike'
+]);
+
+Route::get('adidas',[
+	'as' => 'adidas',
+	'uses' => '\App\Http\Controllers\PageController@getAdidas'
+]);
+
+Route::get('vans',[
+	'as' => 'vans',
+	'uses' => '\App\Http\Controllers\PageController@getVans'
+]);
+
+Route::get('converse',[
+	'as' => 'converse',
+	'uses' => '\App\Http\Controllers\PageController@getConverse'
+]);
+
+Route::get('others',[
+	'as' => 'others',
+	'uses' => '\App\Http\Controllers\PageController@getOthers'
+]);
