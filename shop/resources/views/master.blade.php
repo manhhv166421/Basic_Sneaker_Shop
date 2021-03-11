@@ -27,14 +27,12 @@
 </head>
 
 <body>
-    <?php
     @include('header')
     <!-- End header -->
     @yield('content')
     <!-- End wp-content -->
     @include('footer')
     <!-- End footer -->
-    ?>
 </body>
 
 </html>
