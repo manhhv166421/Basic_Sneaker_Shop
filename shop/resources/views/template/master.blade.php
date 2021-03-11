@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="source/assets/css/shopping-cart/style-shopping.css">
     <link rel="stylesheet" href="source/assets/css/style-order.css">
     <link rel="stylesheet" href="source/assets/css/style-info.css">
+    <script src="{{asset('js/app.js')}}" defer></script>
+    <script src="{{asset('js/bootstraps.js')}}" defer></script>
 </head>
 
 <body>
