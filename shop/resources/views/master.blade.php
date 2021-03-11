@@ -23,16 +23,18 @@
     <link rel="stylesheet" href="source/assets/css/shopping-cart/Login-Box-En.css">
     <link rel="stylesheet" href="source/assets/css/shopping-cart/style-shopping.css">
     <link rel="stylesheet" href="source/assets/css/style-order.css">
-    <link rel="stylesheet" href="source/assets/css/style-info.css"> 
+    <link rel="stylesheet" href="source/assets/css/style-info.css">
 </head>
 
 <body>
-    @include('header') 
-    <!-- End header -->        
+    <?php
+    @include('header')
+    <!-- End header -->
     @yield('content')
     <!-- End wp-content -->
     @include('footer')
     <!-- End footer -->
+    ?>
 </body>
 
 </html>
